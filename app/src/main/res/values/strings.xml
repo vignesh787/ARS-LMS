@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ARS LMS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to ARS Technologies Leather Management Software.
+        Please select the Menu to choose one of the required options</string>
+        <string-array name="docIds">
+            <item>GRN</item>
+            <item>SPN</item>
+            <item>Cutting Challan</item>
+            <item>Rep Challan</item>
+            <item>Return</item>
+        </string-array>
+        <string-array name="units">
+        <item>Sqft</item>
+        </string-array>
+
+
+</resources>

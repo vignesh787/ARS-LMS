@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/masterFragment"
+        android:name="com.ars.technologies.myapplication.MasterFragment"
+        android:label="Master"
+        tools:layout="@layout/fragment_master" />
+    <fragment
+        android:id="@+id/transactionFragment"
+        android:name="com.ars.technologies.myapplication.TransactionFragment"
+        android:label="Transactions"
+        tools:layout="@layout/fragment_transaction" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.ars.technologies.myapplication.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ars.technologies.myapplication.LandingPageFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_landing_page" />
+</navigation>
